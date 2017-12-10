@@ -10,5 +10,8 @@ setup(
   url = 'https://github.com/peterldowns/mypackage', # use the URL to the github repo
   download_url = 'https://github.com/peterldowns/mypackage/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['HKO','Weather'], # arbitrary keywords
+  install_requires=[
+      'requests==2.18'
+  ],
   classifiers = [],
 )

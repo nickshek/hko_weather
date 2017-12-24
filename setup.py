@@ -14,6 +14,7 @@ setup(
       'requests(>=2.18)',
       'inscriptis(>=0.0.3.2)',
       'lxml(>=4.1.1)',
+      'cement(>=2.10.2)',
   ],
   classifiers = [],
 )

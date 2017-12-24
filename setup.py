@@ -11,7 +11,9 @@ setup(
   download_url = 'https://github.com/peterldowns/mypackage/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['HKO','Weather'], # arbitrary keywords
   install_requires=[
-      'requests==2.18'
+      'requests(>=2.18)',
+      'inscriptis(>=0.0.3.2)',
+      'lxml(>=4.1.1)',
   ],
   classifiers = [],
 )

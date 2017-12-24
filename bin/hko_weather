@@ -2,4 +2,5 @@
 
 if __name__ == "__main__":
     import hko_weather
-    print(hko_weather.nine_days_forecast())
+    nine_days_forecast = hko_weather.nine_days_forecast()
+    print(nine_days_forecast.text())

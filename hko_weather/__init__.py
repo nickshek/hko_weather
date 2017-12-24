@@ -1,5 +1,6 @@
 import requests
 from xml.etree import ElementTree
+from hko_weather.models import RSSResult
 
 RSS_FEED_LIST = {
 
@@ -15,4 +16,4 @@ def nine_days_forecast():
         #get description, url, and thumbnail
         desc = entry.findtext('description')
         feed.append([desc])
-    return feed
+    return RSSResult(feed)

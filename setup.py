@@ -5,7 +5,7 @@ setup(
   name = 'hko_weather',
   packages=find_packages(), # this must be the same as the name above
   scripts=['bin/hko_weather'],
-  version = '0.1',
+  version = '0.1.1',
   description = 'A HKO Weather Library',
   classifiers=[
     'Development Status :: 3 - Alpha',

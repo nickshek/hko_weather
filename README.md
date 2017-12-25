@@ -6,8 +6,12 @@ A simple library to get the hong kong weather information by reading [RSS feeds]
 
 ## Basic Usage
 
+```python
 import hko_weather
 print(hko_weather.nine_days_forecast().text())
+```
+
+or execute ```hko_weather``` in linux terminal.
 
 ## Contributing
 

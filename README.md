@@ -4,6 +4,12 @@
 
 A simple library to get the hong kong weather information by reading [RSS feeds](http://rss.weather.gov.hk/rsse.html) provided by The Hong Kong Observatory
 
+## Install
+
+```python
+pip install hko_weather
+```
+
 ## Basic Usage
 
 ```python

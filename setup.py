@@ -13,7 +13,7 @@ setup(
   author = 'Nick Shek',
   author_email = 'alfshek@hotmail.com',
   url = 'https://github.com/nickshek/hko_weather', # use the URL to the github repo
-  download_url = 'https://github.com/nickshek/hko_weather/archive/master.zip', # I'll explain this in a second
+  download_url = 'https://github.com/nickshek/hko_weather/archive/0.1.tar.gz', # I'll explain this in a second
   keywords = ['HKO','Weather'], # arbitrary keywords
   license='MIT',
   install_requires=[
